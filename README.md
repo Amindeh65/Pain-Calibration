@@ -44,13 +44,8 @@ Here is an example diagram that visualizes the process:
 # [Code](./codes/)
 
 Click the link above to access the code used for the experiment.
-[Uploafunction [time] = biopac_linux_matlab(channel, channel_num, state_num)
-  if channel.biopac
-      channel.d.setFIOState(pyargs('fioNum', int64(channel_num), 'state', int64(state_num)))
-      time = GetSecs;
-  else
-      time = GetSecs;
-      return
+https://github.com/Amindeh65/Pain-Calibration/tree/main/Codes
+
   end
 end
 ding biopac_linux_matlab.m…]()
