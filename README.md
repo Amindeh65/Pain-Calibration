@@ -42,5 +42,5 @@ Here is an example diagram that visualizes the process:
 
 
 ## Codes
-[Click here to access the code](https://github.com/Amindeh65/Pain-Calibration/tree/main/Codes)
+Click [here](https://github.com/Amindeh65/Pain-Calibration/tree/main/Codes) for codes
 
