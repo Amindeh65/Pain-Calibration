@@ -37,4 +37,5 @@ Two forearm sites with the least mean absolute error values in rate-temperature 
 ## Methodology Diagram
 Here is an example diagram that visualizes the process:
 
-![Pain Measurement Process](images/process_diagram.png)
+![image](https://github.com/user-attachments/assets/1315c273-2167-4b79-9aa3-3e6673ac8487)
+
