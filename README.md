@@ -10,7 +10,8 @@ This method improves the accuracy of pain and tolerance measurement by adjusting
 Four runs (6 trials in each run, totaling 24 trials) of noxious heat were administered to six forearm sites using iterative adaptive logistic regression. Each stimulus lasted 13 seconds, with 1.5 seconds allocated for ramping. Sensation was rated on a circular scale ranging from "no sensation" to "strongest imaginable."
 
 ### Participant Reporting
-Participants reported pain and tolerance using binary responses ("yes" or "no") to the following questions:
+Participants reported pain sensation using a circular rating and pain and tolerance using binary responses ("yes" or "no") to the following questions:
+- **"Pain sensation using circular rating?"**
 - **"Painful?"**
 - **"Tolerate?"**
 
