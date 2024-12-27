@@ -40,3 +40,18 @@ Here is an example diagram that visualizes the process:
 
 ![image](https://github.com/user-attachments/assets/1315c273-2167-4b79-9aa3-3e6673ac8487)
 
+
+# [Code](./codes/)
+
+Click the link above to access the code used for the experiment.
+[Uploafunction [time] = biopac_linux_matlab(channel, channel_num, state_num)
+  if channel.biopac
+      channel.d.setFIOState(pyargs('fioNum', int64(channel_num), 'state', int64(state_num)))
+      time = GetSecs;
+  else
+      time = GetSecs;
+      return
+  end
+end
+ding biopac_linux_matlab.m…]()
+
