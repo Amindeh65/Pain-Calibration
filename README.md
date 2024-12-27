@@ -1,3 +1,40 @@
-# Pain-caliberation
-This method can improve the accuracy of the measurement because it adjusts the temperature based on the participants' reported sensation and allows for the determination of an individual's pain and tolerance level. Four runs (6 trials in each run and 24 trials totally) of noxious heat were administered to six forearm sites using iterative adaptive logistic regression. Each stimulus lasted 13 seconds, with 1.5 seconds for ramping. Sensation was rated on a circular scale from "no sensation" to "strongest imaginable". Participants reported pain and tolerance with "yes" or "no" responses to "Painful?" and "Tolerate?" questions. Calibration's first run familiarized participants with 47°C on all sites. The second run included 45°C, 47°C, and 48.9°C stimuli twice, randomly distributed. Runs three and four included low and high temperatures based on the pain and tolerance responses of previous trials. A logistic regression based on a 90% response to pain and tolerance of previous trials was used to determine the low and high threshold and was updated after each trial.
-After the final trial, low (pain) and high (tolerance)  were determined and two sites with the least mean absolute error values in rate-temperature linear regression were chosen for pain stimulation. 
+# Adaptive Pain and Tolerance Measurement
+
+This method improves the accuracy of pain and tolerance measurement by adjusting the temperature based on participants' reported sensations. It enables the determination of individual pain and tolerance levels.
+
+---
+
+## Description of the Experiment
+
+### Overview
+Four runs (6 trials in each run, totaling 24 trials) of noxious heat were administered to six forearm sites using iterative adaptive logistic regression. Each stimulus lasted 13 seconds, with 1.5 seconds allocated for ramping. Sensation was rated on a circular scale ranging from "no sensation" to "strongest imaginable."
+
+### Participant Reporting
+Participants reported pain and tolerance using binary responses ("yes" or "no") to the following questions:
+- **"Painful?"**
+- **"Tolerate?"**
+
+---
+
+## Experiment Steps
+
+### Step 1: Calibration Phase
+1. The first run familiarized participants with a fixed temperature of **47°C** across all sites.
+2. The second run included stimuli at **45°C**, **47°C**, and **48.9°C**, applied twice in a randomized order.
+
+### Step 2: Adaptive Testing
+1. **Runs 3 and 4**:
+   - Included low and high temperatures based on the pain and tolerance responses from previous trials.
+2. **Logistic Regression**:
+   - A regression model was used to determine the low (pain) and high (tolerance) thresholds, updated after each trial.
+   - The final trial identified the thresholds for pain and tolerance.
+
+### Step 3: Selection for Stimulation
+Two forearm sites with the least mean absolute error values in rate-temperature linear regression were selected for pain stimulation.
+
+---
+
+## Methodology Diagram
+Here is an example diagram that visualizes the process:
+
+![Pain Measurement Process](images/process_diagram.png)
